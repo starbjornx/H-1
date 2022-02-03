@@ -159,33 +159,37 @@ p {
   color: #ffffff;
 }
 
-/* Selecting a class el. */
+/* Selecting a class. Merged into one group. 
+.search-engine-optimization img {
+  max-height: 200px;
+}*/
+/* Selecting a class el.*/
+.online-reputation-management img,
+.social-media-marketing img,
 .search-engine-optimization img {
   max-height: 200px;
 }
-/* Selecting a class el.*/
-.online-reputation-management img {
-  max-height: 200px;
-}
-/* Selecting a class el. */
+/* Selecting a class. Merged into one group.
 .social-media-marketing img {
   max-height: 200px;
-}
-/* Selecting a class el.These should be merged into one group */
+}*/
+/* Selecting a class el.These should be merged into one group 
+.search-engine-optimization h2 {
+  margin-bottom: 20px;
+  font-size: 36px;
+}*/
+/* Selecting a group of class el. These should be merged into one group.*/
+.online-reputation-management h2,
+.social-media-marketing h2,
 .search-engine-optimization h2 {
   margin-bottom: 20px;
   font-size: 36px;
 }
-/* Selecting a group of class el. These should be merged into one group.*/
-.online-reputation-management h2 {
-  margin-bottom: 20px;
-  font-size: 36px;
-}
-/* Selecting a group of class el. These should be merged into one group */
+/* Selecting a group of class el. These should be merged into one group 
 .social-media-marketing h2 {
   margin-bottom: 20px;
   font-size: 36px;
-}
+}*/
 /* Selecting a class el. inside the footer */
 .footer {
   padding: 30px;
