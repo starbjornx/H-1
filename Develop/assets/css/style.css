@@ -74,6 +74,12 @@ p {
   display: inline-block;
   margin-left: 20px;
 }
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
 /* Selecting a class benefits */
 .benefits {
   margin-right: 20px;
@@ -106,7 +112,12 @@ p {
   display: block;
   margin-bottom: 100px;
   text-align: center;
-  max-height: 350px;
+  max-height: 116px;
+}
+main {
+  width: 75%;
+  display: inline-block;
+  margin-left: 20px;
 }
 /* Selecting a class. This class is not used in the code
 .benefit-cost h3 {
@@ -182,7 +193,7 @@ p {
 .online-reputation-management h2,
 .social-media-marketing h2,
 .search-engine-optimization h2 {
-  margin-bottom: 20px;
+  margin-bottom: 50px;
   font-size: 36px;
 }
 /* Selecting a group of class el. These should be merged into one group 
